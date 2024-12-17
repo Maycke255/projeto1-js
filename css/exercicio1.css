@@ -4,14 +4,53 @@
     padding: 0;
 }
 
+body {
+    background-color: #494949;
+    color: #f0f8ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin: 1rem;
+    text-align: center;
+}
+
 main {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
 .registration-form {
     display: flex;
     flex-direction: column;
     margin: 1rem;
+    text-align: center;
+}
+
+.label {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.input {
+    background-color: #8a8a8a;
+    border: 2px #1a1a1a solid;
+    border-radius: .5rem;
+    color: black;
+    padding: 1rem;
+}
+
+.cta-button {
+    display: flex;
+    align-self: center;
+    background-color: #1fc270;
+    border: 2px #1a1a1a solid;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 7px rgb(0, 0, 0);
+    font-size: 1.25rem;
+    margin: 1rem;
+    padding: 1rem;
+    height: auto;
+    width: 10rem;
 }
