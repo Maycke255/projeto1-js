@@ -54,3 +54,7 @@ main {
     height: auto;
     width: 10rem;
 }
+
+.cta-button {
+    cursor: pointer;
+}
